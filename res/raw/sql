@@ -1,0 +1,26 @@
+create table if not exists tab_cust(
+	cust_id varchar(50),
+	nickname varchar(50),
+	sex varchar(1)
+);
+
+create table if not exists tab_copy(
+	id integer primary key autoincrement,
+	file_path varchar(100),
+	sec varchar(10)
+);
+
+create table if not exists tab_group(
+	group_name varchar(50)
+);
+
+delete from tab_group;
+insert into tab_group(group_name) values ('最新');
+insert into tab_group(group_name) values ('最热');
+
+create table if not exists tab_email(
+	uid varchar(50) primary key,
+	title varchar(50),
+	create_date varchar(50),
+	is_read varchar(1)
+);

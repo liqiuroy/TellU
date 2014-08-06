@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+	<ImageView android:id="@+id/src"
+	    android:layout_width="70sp"
+	    android:layout_height="70sp"/>
+	
+	<ImageView android:id="@+id/del"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/del"
+	    android:layout_marginRight="0sp"
+	    android:layout_marginTop="0sp"/>
+</RelativeLayout>

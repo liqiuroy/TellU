@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ebebeb"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/head_bg"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/leftbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="click"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="8"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/a5_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        android:cacheColorHint="#00000000">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/head_bg"
+        android:orientation="horizontal" 
+        android:focusable="true"  
+   		android:focusableInTouchMode="true">
+
+        <ImageView
+            android:id="@+id/a5_speackbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/voice" 
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:clickable="true"/>"
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout android:id="@+id/a5_editspace"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/a5_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" 
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/a5_editsend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a5_str2" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/a5_voice"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="invisible"
+                android:text="@string/record" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

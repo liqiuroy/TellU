@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">故事</string>
+    <string name="action_settings">设置</string>
+    
+    <string name="record">按住开始录音</string>
+	<string name="startRecording">正在录音</string>
+    
+	<string name="activity00_ask">请问你是？</string>
+	<string name="activity00_man">男</string>
+	<string name="activity00_woman">女</string>
+	
+	<string name="activity01_say">我想述说</string>
+	
+	<string name="activity02_str1">标题</string>
+	
+	<string name="activity03_str1">留言</string>
+	<string name="a5_str2">发送</string>
+	
+	<string name="default_menu">菜单</string>
+</resources>

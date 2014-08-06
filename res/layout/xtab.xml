@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xtab_layout"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/head_bg"
+	android:gravity="center"
+	android:orientation="horizontal">
+</LinearLayout>

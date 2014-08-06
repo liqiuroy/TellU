@@ -1,0 +1,129 @@
+8
+
+dir
+2040
+svn://223.4.152.8/TellU
+svn://223.4.152.8
+
+
+
+2013-07-10T10:08:37.348881Z
+1985
+liqiu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5017dff2-a3dc-da4f-9142-aae1ac246ec2
+
+.classpath
+file
+
+
+
+
+2013-03-27T10:53:10.269112Z
+b60bd459f725d35c78c1ddacfb583ef1
+2013-03-27T09:12:24.172217Z
+1282
+liqiu
+
+project.properties
+file
+
+
+
+
+2013-03-27T10:53:10.269112Z
+901a44b86d4588162cb323183f0103ec
+2013-03-27T09:12:24.172217Z
+1282
+liqiu
+
+assets
+dir
+
+.project
+file
+
+
+
+
+2013-03-27T10:53:10.269112Z
+b2892b3fcb516dc8370444f3c968c14f
+2013-03-27T09:12:24.172217Z
+1282
+liqiu
+
+proguard-project.txt
+file
+
+
+
+
+2013-03-27T10:53:10.284712Z
+18bfe77c342b4698f1cef19cf8d918e2
+2013-03-27T09:12:24.172217Z
+1282
+liqiu
+
+AndroidManifest.xml
+file
+
+
+
+
+2013-07-10T11:41:34.622062Z
+5e9e80562394f2ee7f612bb5fc914c8b
+2013-07-09T07:20:00.585746Z
+1966
+liqiu
+
+src
+dir
+
+bin
+dir
+
+libs
+dir
+
+res
+dir
+
+gen
+dir
+
+ic_launcher-web.png
+file
+
+
+
+
+2013-03-27T10:53:10.300312Z
+03162f4ee138bcbae36f78b1d25dbd5b
+2013-03-27T09:12:24.172217Z
+1282
+liqiu
+has-props
+
+framework
+dir
+
+.settings
+dir
+
+
+
+add
+
